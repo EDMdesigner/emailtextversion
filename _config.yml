@@ -9,7 +9,7 @@
 title: Email Text Version
 email: info@edmdesigner.com
 description: > # this means to ignore newlines until "baseurl:"
-  Generate the text verion of your HTML email in a second.
+  Generate the text verion of your HTML email in a second online.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://emailtextversion.com" # the base hostname & protocol for your site
 gaCode: UA-42954042-8
