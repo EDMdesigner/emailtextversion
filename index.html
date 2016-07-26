@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<script src="js/textversion.js"></script>
 
 <div class="home">
   <h1>Email Text Version</h1>
@@ -24,15 +25,11 @@ layout: default
   </div>
 
   <script>
-    function convert(value) {
-      return value.split("").reverse().join("");
-    }
-
     function generate() {
       var htmlTextarea = document.getElementById("htmlTextarea");
       var textVersionTextarea = document.getElementById("textVersionTextarea");
 
-      textVersionTextarea.value = convert(htmlTextarea.value);
+      textVersionTextarea.value = createTextVersion(htmlTextarea.value);
 
       ga("send", "event", "generate");
     }
